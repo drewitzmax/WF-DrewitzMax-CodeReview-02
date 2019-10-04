@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="css/style.css"></script>
+    <title>CarInsurance CF</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="" class="logo">
+        <img src="img/banner.png" alt="" id="banner">
+    </header>
+    <nav>
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="team.html">
+                <li>Team</li>
+            </a>
+        </ul>
+    </nav>
+    <main>
+        <h1>Car Insurance</h1>
+        <div id="calculatorForm">
+            <h2>Great coverage begins</h2>
+            <h2>with a custom quote</h2>
+            <div id="fields">
+                <div class="inputField">
+                    <p>Your Name:</p>
+                    <input type="text" id="name">
+                </div>
+                <div class="inputField">
+                    <p>Age:</p>
+                    <input type="text" id="age">
+                </div>
+                <div class="inputField">
+                    <p>Country:</p>
+                    <select id="country" id="country">
+                        <option value="AT" selected>Austria</option>
+                        <option value="HU">Hungary</option>
+                        <option value="GR">Greece</option>
+                    </select>
+                </div>
+                <div class="inputField">
+                    <p>Horsepower of your Car:</p>
+                    <input type="text" id="horsepower">
+                </div>
+            </div>
+            <input type="button" onclick="buttonClick()" value="Calculate" id="submitButton">
+            <div id="calculationResult">Some Text</div>
+        </div>
+<br>
+        <div id="promise">
+            <h3>Un-complicating car coverage</h3>
+            <div>
+                Understanding your coverage options shouldn't be so hard. <br>
+                We'll guide you through available coverage types, <br>
+                starting with who and what is covered.
+            </div>
+        </div>
+        <div id="insurancePlans">
+            <div class="plan">
+                <div class="planHead">
+                    <h4>What comes standard</h4>
+                    <h5>The coverage you need</h5>
+                </div>
+                <ul>
+                    <li>Bodily Injury Liability</li>
+                    <li>Property Damage</li>
+                    <li>Medical Payments</li>
+                </ul>
+                <div class="planFoot">
+                    <h5>Benefits</h5>
+                    <p>12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</p>
+                </div>
+            </div>
+            <div class="plan">
+                <div class="planHead">
+                    <h4>Add-on protection & coverage</h4>
+                    <h5>For more peace of mind</h5>
+                </div>
+                <ul>
+                    <li>Better Car Replacement</li>
+                    <li>Towing & Labor</li>
+                    <li>Rental Car Coverage</li>
+                </ul>
+                <div class="planFoot">
+                    <h5>Benefits</h5>
+                    <p>Accident Forgivenes<sup>1</sup> | New Car Replacement&trade;</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Team</li>
+                </a>
+            </ul>
+        </nav>
+        <img src="img/logo-inv.png" alt="">
+        <p>Max Drewitz - CodeFactory 2019</p>
+    </footer>
+
+
+</body>
+
+</html>
