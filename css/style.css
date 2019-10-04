@@ -144,7 +144,6 @@ footer {
   background-color: black;
   color: white;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between; }
   footer nav {
     align-self: flex-start;
@@ -156,8 +155,8 @@ footer {
     order: 3; }
   footer p {
     align-self: flex-end;
-    justify-self: center;
     order: 2;
+    margin: 3px;
     word-wrap: none;
     white-space: nowrap; }
 
@@ -192,7 +191,8 @@ footer {
   footer {
     padding: 10px 0;
     height: 20vh;
-    justify-content: center; }
+    justify-content: center;
+    flex-wrap: wrap; }
     footer ul {
       justify-content: center; }
     footer img {
